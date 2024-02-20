@@ -15,8 +15,8 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
- /* code */
- printf("%d is positive\n", n);
+/* code */
+printf("%d is positive\n", n);
 }
 if (n == 0)
 {
