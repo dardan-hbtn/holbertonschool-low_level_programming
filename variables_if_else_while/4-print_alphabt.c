@@ -5,7 +5,7 @@
 * main - main function
 * Return: 0 value
 */
-int main (void)
+int main(void)
 {
 char low, e, q;
 e = 'e';
