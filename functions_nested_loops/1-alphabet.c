@@ -1,11 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+#include "main.h"
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
+* print_alphabet - this is the function of te task
+* Return: return 0
 */
-int main(void)
+void print_alphabet(void)
+{
+char d;
+for(d = "a"; d <= "z"; d++)
+{
+    _putchar(d);
+}
+_putchar('/n');
+}
