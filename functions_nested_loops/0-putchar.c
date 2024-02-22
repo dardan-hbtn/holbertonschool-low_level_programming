@@ -1,25 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+#include "main.h"
 /**
 * main - Entry point
-*
-* Return: Always 0 (Success)
+* Return: Always 0
 */
 int main(void)
 {
-    int n;
-
-    for (n = 0; n < 10; n++) {
-        putchar (n + '0');
-        
-    }
-    putchar ('\n');
-    return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
-
-
-
-
