@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*Prototype: void times_table(void);
+*times_table - Prints the 0 times table, starting with 0
 *Format: see example
 */
 void times_table(void)
