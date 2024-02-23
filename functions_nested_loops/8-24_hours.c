@@ -7,8 +7,6 @@
 
 void jack_bauer(void)
 {
-int a, b, c, d;
-
    {
 	int hour;
 	int min;
