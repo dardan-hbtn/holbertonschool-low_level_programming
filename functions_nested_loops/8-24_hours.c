@@ -1,11 +1,29 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
-/**
-* main - Entry point
-*
-* Return: Always 0 (Success)
+#include "main.h"
+
+/***
+* Prototype: void jack_bauer(void);
+* You can listen to this soundtrack while coding :)
 */
-int main(void)
+
+void jack_bauer(void)
+{
+int a, b, c, d;
+
+   {
+	int hour;
+	int min;
+
+	for (hour = 0; hour <= 23; hour++)
+	{
+		for (min = 0; min <= 59; min++)
+		{
+			_putchar(hour / 10 + '0');
+			_putchar(hour % 10 + '0');
+			_putchar(':');
+			_putchar(min / 10 + '0');
+			_putchar(min % 10 + '0');
+			_putchar('\n');
+		}
+	}
+}
+}
