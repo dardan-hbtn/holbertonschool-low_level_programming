@@ -1,9 +1,9 @@
 #include "main.h"
 
-/***
-* Prototype: void jack_bauer(void);
-* You can listen to this soundtrack while coding :)
-*/
+/**
+ * jack_bauer - Prints every minue of the dau of Jack Bauer
+ * Return: ...
+ **/
 
 void jack_bauer(void)
 {
