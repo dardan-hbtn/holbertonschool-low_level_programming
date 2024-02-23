@@ -4,7 +4,7 @@
  * @c: The number to be computed.
  * Return: Absolut value of a number ore zero
  */
- int _abs(int c)
+int _abs(int c)
 {
 if (c < 0)
 {
