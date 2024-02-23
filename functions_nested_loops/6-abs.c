@@ -1,11 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
-/**
-* main - Entry point
-*
-* Return: Always 0 (Success)
+#include "main.h"
+/**_abs - Computes the absolut value of an integer.
+*@c: The number to be computes.
+*Returne: Absolut value of a number ore zero.
 */
-int main(void)
+int _abs(int)
+{
+if (c < 0)
+{
+int abs_val;
+abs_val = c * -1;
+return (abs_val);
+ }
+return (c);
+}
