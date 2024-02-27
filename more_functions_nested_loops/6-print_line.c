@@ -1,14 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 
+/**
+ * print_line - Prints a line
+ * @n: The times the underline is printed
+ * Return:
+ */
 void print_line(int n)
 {
-int i;
-   
-   for (i = 1;i <= n; i++)
-   {
-     for ( _putchar('_');
-   }
+	int i;
+
+	for (i = 1; i <= n; i++)
+	{
+		for (
+		_putchar('_');
+	}
 	_putchar('\n');
 }
-
