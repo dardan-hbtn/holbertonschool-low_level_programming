@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_diagonal - Prints a diagonal line
+ * @n: The times the slash is printed
+ * Return:
  */
 void print_diagonal(int n)
 {
