@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*swap - swap the value of the two integers
-*@a: value of first number
-*@b: value of secend number
-*/
+ * swap_int - Swaps the values of 2 integers
+ * @a: Variable to be swaped
+ * @b: Variable to be swaped
+ * Return: adfasdfa
+ */
 void swap_int(int *a, int *b)
 {
 int tmp;
