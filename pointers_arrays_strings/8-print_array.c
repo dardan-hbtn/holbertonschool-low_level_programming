@@ -2,19 +2,22 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - Entry point
- * @a: input
- * @size: input
- * Return: NULL.
+ * print_array - function that prints n elements of an array of integers..
+ * @a: String
+ * @n: variable
+ * Return: cvsdvsdv
  */
 void print_array(int *a, int n)
 {
-	int i, sum1 = 0, sum2 = 0;
+	int i;
 
-	for (i = 0; i <= (sizeof(a) / sizeof(int)); i = i + size + 1)
-		sum1 = sum1 + a[i];
-
-	for (n = size - 1; n <= (sizeof(a) / sizeof(int)) - size; n = n + size - 1)
-	sum2 = sum2 + a[n];
-	printf("%d, %d\n", sum1, sum2);
+	for (i = 0; i < n; i++)
+	{
+		printf("%d", a[i]);
+		if (i != n - 1)
+		{
+			printf(", ");
+		}
+	}
+	printf("\n");
 }
