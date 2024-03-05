@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_memspy - Entry point
+*_memcpy - Entry point
 *@dest: input
 *@src: input
 *@n: input
