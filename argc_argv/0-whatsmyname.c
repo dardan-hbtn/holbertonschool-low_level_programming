@@ -1,14 +1,16 @@
 #include <stdio.h>
-/**
- * main - Write a program that prints its name, followed by a new line
- * @argc: number of arguments
- * @argv: argument arrey
- * Return: Always 0.
- */
+#include <stdlib.h>
 
-int main(int argc, char *argv[])
+/**
+ * main - Entry point
+ *
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
+ * Return: Always 0 (Success)
+ */
+int main(int argc, char **argv)
 {
-    (void) argc;
-    printf("%s\n", argv[0]);
-    return (0);
+	if (argc > 0)
+		printf("%s\n", argv[0]);
+	return (0);
 }
