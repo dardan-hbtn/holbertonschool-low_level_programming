@@ -15,7 +15,7 @@ if (array == NULL || size == 0)
 return (NULL);
 for (i = 0; i < size; i++)
 {
-array [i]= c;
+array [i] = c;
 }
 return (array);
 }
